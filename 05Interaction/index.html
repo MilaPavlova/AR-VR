@@ -38,14 +38,22 @@
           startEvents: mouseleave;
           dur: 500;"
 
-          animation__mouseclick="property: scale;
+          animation="property: scale;
                               to:1.5 1.5 1.5;
                               from: 1 1 1;
-                              dur: 5000;
+                              dur: 7000;
                               repeat: indefinite;
                               direction: alternate;
                               easing: linear;
                               loop: true"
+          animation__2="property: scale;
+                              animation__to: 1 1 1;
+                              animation__from: 1.5 1.5 1.5;
+                              animation__dur: 7000;
+                              animation__repeat: indefinite;
+                              animation__direction: alternate;
+                              animation__easing: linear;
+                              animation__loop: true"
           >
       </a-sphere>
       <a-box id="myOtherBox"
